@@ -14,14 +14,15 @@
    **Peran:** Lead Analyst  
    **Tugas:** Koordinasi tim, dokumentasi GitHub, konsolidasi laporan
 
-2. Arif Sanda Wijaksana – NIM  
+2. Arif Sanda Wijaksana – NIM  (MAGANG)
    **Peran:** System / Network Engineer  
    **Tugas:** Instalasi VM CyberOps & Security Onion
 
-3. Muhammad Aqil Fazli – NIM  
-   **Peran:** Security Analyst  
-   **Tugas:** Analisis teknis & log 
-4. Fatimah Az-Zahidah
+4. Muhammad Aqil Fazli – NIM  
+   **Peran:** Network Engineer  
+   **Tugas:**  Fokus pada setup VM dan konfigurasi jaringan di Packet Tracer.
+   
+5. Fatimah Az-Zahidah
    **Peran:** Security Analyst  
    **Tugas:** Analisis teknis & log 
 
@@ -51,7 +52,7 @@
 - Telah menentukan daftar port yang perlu dibuka untuk simulasi penyadapan pada Victim-Server (Port 80 HTTP, Port 21 FTP, Port 22 SSH).
 
 **Artefak Dokumen Minggu 3:**
-- [Gambar Topologi Jaringan](docs/design/topology.png)
+- [Gambar Topologi Jaringan](docs/design/Network-Popology.png)
 - [Tabel IP Plan & Analisis Port](docs/design/ip_plan.md)
 
 **Status Proyek:** On Progress
