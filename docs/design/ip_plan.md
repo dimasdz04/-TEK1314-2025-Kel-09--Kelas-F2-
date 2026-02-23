@@ -1,7 +1,7 @@
 # IP Address & Network Plan - Kelompok 09
 
 **Skenario Proyek:** Man-in-the-Middle Hunter
-**Target Aset:** Network Switch / Gateway (Jaringan Lokal/LAN)
+**Target Aset:** Network Switch / Gateway
 
 ## 1. Skema Jaringan
 Sesuai dengan Kontrak Kuliah Poin 3a, Kelompok 09 menggunakan segmen IP unik sebagai berikut:
@@ -24,4 +24,5 @@ Berikut adalah daftar Node yang direncanakan untuk simulasi proyek ini:
 Untuk mendukung skenario penyadapan komunikasi data (username/password) antar komputer korban, port berikut perlu dibuka pada Victim-Server:
 * **Port 80 (HTTP):** Untuk simulasi login web *plain-text* (tidak terenkripsi).
 * **Port 21 (FTP):** Untuk simulasi transfer file.
+
 * **Port 22 (SSH):** Untuk akses manajemen *remote* server oleh tim engineer.
