@@ -52,7 +52,7 @@
 - Telah menentukan daftar port yang perlu dibuka untuk simulasi penyadapan pada Victim-Server (Port 80 HTTP, Port 21 FTP, Port 22 SSH).
 
 **Artefak Dokumen Minggu 3:**
-- [Gambar Topologi Jaringan](docs/design/Network-Popology.png)
+- [Gambar Topologi Jaringan](docs/design/Network-Topology.png)
 - [Tabel IP Plan & Analisis Port](docs/design/ip_plan.md)
 
 **Status Proyek:** On Progress
