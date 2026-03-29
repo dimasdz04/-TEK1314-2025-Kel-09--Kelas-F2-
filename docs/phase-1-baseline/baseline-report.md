@@ -5,9 +5,9 @@
 ## 1. Topologi Jaringan
 *(Catatan: Masukkan gambar topologi logis kelompok di sini jika ada)*
 - **Attacker Node:** Kali Linux (192.168.9.100)
-- **Target Server:** Ubuntu Server CLI (192.168.9.10)
+- **Victim Server:** Ubuntu Server CLI (192.168.9.10)
 - **Monitoring Node:** Security Onion (192.168.9.200)
-
+- **Web Server:** Ubuntu Server CLI (192.168.9.50)
 ## 2. Hardening Review (Sistem "Before Attack")
 Sesuai dengan skenario pencegahan ancaman Man-in-the-Middle (MITM), kami telah menerapkan penguatan sistem pada target server:
 1. **Network Firewall:** Konfigurasi UFW dengan menerapkan *Default Deny* pada jalur masuk dan hanya membuka *port* esensial (Port 22). 
