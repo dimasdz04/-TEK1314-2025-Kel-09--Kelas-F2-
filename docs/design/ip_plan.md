@@ -14,8 +14,8 @@ Berikut adalah daftar Node yang direncanakan untuk simulasi proyek ini:
 | Hostname | Sistem Operasi (OS) | IP Address | Peran / Deskripsi |
 | :--- | :--- | :--- | :--- |
 | **Attacker-Node** | Kali Linux | `192.168.9.100` | Penyerang (Menjalankan Ettercap/Bettercap) |
-| **Victim-Client** | Windows 10/11 Endpoint | `192.168.9.50` | Korban 1 (User PC yang melakukan login) |
-| **Victim-Server** | Ubuntu Server CLI | `192.168.9.10` | Korban 2 (Target Web/FTP Server Lokal) |
+| **Victim-Client** | Ubuntu Server CLI | `192.168.9.10` | Korban 1 (User PC yang melakukan login) |
+| **Web-Server** | Ubuntu Server CLI | `192.168.9.50` | Web Server (Target Web/FTP Server Lokal) |
 | **Monitor-Node** | Security Onion | `192.168.9.200` | IDS & Monitoring Log Jaringan |
 
 *Catatan: Ubuntu Server CLI dipilih karena ringan untuk mengantisipasi keterbatasan RAM laptop.*
