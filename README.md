@@ -80,3 +80,36 @@
 ---
 ## Catatan
 Dokumentasi teknis lanjutan, Vulnerability Assessment (Fase 2), dan simulasi serangan MITM serta Incident Response (Fase 3) akan dilakukan pada minggu berikutnya sesuai roadmap PBL.
+
+## Update Minggu 9-11 – Fase Serangan (Offensive)
+**Target:** Melakukan Vulnerability Scanning dan simulasi serangan Man-in-the-Middle sesuai skenario.
+
+**Update [Isi Tanggal]:**
+- Mengidentifikasi celah *Cleartext Protocol* pada Port 21 (FTP) dan kerentanan *Unauthenticated ARP* di Layer 2.
+- Mengeksekusi serangan ARP Spoofing menggunakan `arpspoof` dari mesin Kali Linux (`192.168.9.100`) untuk meracuni tabel ARP Victim dan Server.
+- Berhasil menjadi "Man-in-the-Middle" dan menyadap lalu lintas jaringan menggunakan Wireshark.
+- Berhasil mendapatkan kredensial login (`USER kel9`) secara *plaintext* dan mengeksfiltrasi isi file `data_korban.txt`.
+
+**Artefak Dokumen Minggu 9-11:**
+- [Bukti Sniffing Wireshark (Kredensial & Data)](docs/phase-2-attack/assets/bukti-sniffing.png)
+
+**Status Proyek:** Fase 2 Selesai.
+
+---
+
+## Update Minggu 12-15 – Fase Pertahanan & Incident Response (Defensive)
+**Target:** Analisis log, identifikasi anomali, mitigasi serangan, dan penyusunan laporan insiden.
+
+**Update [Isi Tanggal]:**
+- **[Deteksi]** Mendeteksi anomali serangan secara *real-time* melalui sensor Arpwatch di VM-SWITCH yang menghasilkan peringatan *'flip-flop'* MAC Address.
+- **[Analisis]** Mengonfirmasi sumber serangan berasal dari IP `192.168.9.100` dengan MAC `08:00:27:63:B0:05` melalui *Deep Packet Inspection*.
+- **[Mitigasi]** Mengeksekusi *Containment* dan *Eradication* dengan menginjeksi aturan *firewall* Ebtables di Linux Bridge untuk men-DROP paket dari MAC Address penyerang.
+- **[Verifikasi]** Membuktikan mitigasi berhasil; penyerang tidak dapat lagi menyadap lalu lintas FTP yang sedang berlangsung.
+- *(Penyusunan Final Incident Response Report berstandar NIST sedang dikerjakan oleh tim).*
+
+**Artefak Dokumen Minggu 12-15:**
+- [Bukti Log Deteksi Arpwatch](docs/phase-3-defense/assets/bukti-log-arpwatch.png)
+- [Bukti Mitigasi Ebtables](docs/phase-3-defense/assets/bukti-mitigasi-ebtables.png)
+- [Laporan Akhir Insiden (NIST)](Reports/Final-Report-NIST.pdf)
+
+**Status Proyek:** Fase 3 Selesai.
