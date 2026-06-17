@@ -108,7 +108,7 @@ Dokumentasi teknis lanjutan, Vulnerability Assessment (Fase 2), dan simulasi ser
 - *(Penyusunan Final Incident Response Report berstandar NIST sedang dikerjakan oleh tim).*
 
 **Artefak Dokumen Minggu 12-15:**
-- [Bukti Log Deteksi Arpwatch](docs/phase-3-defense/assets/bukti-log-arpwatch.png)
+- [Bukti Log Deteksi Arpwatch](docs/phase-3-defense/assets/bukti-log-arpwatch.jpg)
 - [Bukti Mitigasi Ebtables](docs/phase-3-defense/assets/bukti-mitigasi-ebtables.png)
 - [Laporan Akhir Insiden (NIST)](Reports/Final-Report-NIST.pdf)
 
